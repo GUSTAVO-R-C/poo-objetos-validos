@@ -31,13 +31,19 @@ Use somente `pratica/01-estender-sensor` durante o encontro.
 
 O segundo comando repete o primeiro. Os testes compilam clientes da interface pública, verificam transições em C++ e Python e comparam a saída completa dos dois programas. Não altere `tests/`, `.github/` ou `Makefile`.
 
+## Fluxo do fork
+
+O clone deve possuir apenas `origin`, apontando para o fork do estudante. Não configure `upstream` e não abra pull request contra este repositório-base.
+
+Ao concluir, abra no próprio fork um pull request de `pratica/01-estender-sensor` para a `main` do mesmo fork. Essa PR organiza a revisão e a integração da entrega sem enviar branches ou solicitações ao repositório-base.
+
 ## Decisão de interface
 
 Antes de implementar, registre no PR quais elementos pertencem à interface pública e quais são detalhes internos. Os testes verificam as assinaturas públicas e o comportamento; a revisão do diff verifica se o estado ficou protegido e se a justificativa corresponde ao código.
 
 ## Entrega
 
-Faça commits pequenos, push da branch e confira **Actions > Validação do capítulo 04**. O PR deve conter a saída do programa, resultado de `make test ETAPA=02`, link da CI, justificativa de visibilidade e `AI_LOG.md` quando houver uso de IA.
+Faça commits pequenos, push da branch e confira **Actions > Validação do capítulo 04** no seu fork. A PR para a sua própria `main` deve conter a saída do programa, resultado de `make test ETAPA=02`, link da CI, justificativa de visibilidade e `AI_LOG.md` quando houver uso de IA.
 
 ## Limite da automação
 

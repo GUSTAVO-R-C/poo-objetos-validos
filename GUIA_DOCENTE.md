@@ -6,6 +6,7 @@
 2. Preserve `main` com o baseline compilável e o defeito observável.
 3. Valide em cópia privada uma solução de referência para as duas etapas.
 4. Distribua por fork ou GitHub Classroom sem publicar a solução.
+5. Oriente a PR da atividade para a `main` do próprio fork; o repositório-base não recebe entregas.
 
 ## Contrato esperado, sem solução pronta
 
